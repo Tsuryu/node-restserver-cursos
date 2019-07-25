@@ -12,3 +12,6 @@ process.env.URLDB = urlDB;
 // TOKEN - AUTENTICACION
 process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
 process.env.SEED = process.env.SEED || 'la-seed-secreta-para-encryptar-desarrollo';
+
+// Google Client ID
+process.env.CLIENT_ID = process.env.CLIENT_ID || '922564660590-2chlqds5v3irrjbj4v3pv4d62timircd.apps.googleusercontent.com';
