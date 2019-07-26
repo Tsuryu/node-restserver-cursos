@@ -10,7 +10,7 @@ urlDB = process.env.NODE_ENV === 'local' ? 'mongodb://localhost:27017/cafe' : pr
 process.env.URLDB = urlDB;
 
 // TOKEN - AUTENTICACION
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
+process.env.CADUCIDAD_TOKEN = '2d';
 process.env.SEED = process.env.SEED || 'la-seed-secreta-para-encryptar-desarrollo';
 
 // Google Client ID
